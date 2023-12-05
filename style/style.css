@@ -325,3 +325,32 @@ body {
   background: #044076;
   border: none;
 }
+
+.footer {
+  margin-top: 116px;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  gap: 60px;
+
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+}

@@ -119,6 +119,50 @@
     text-align: center;
     font-size: 12px;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    width: 73px;
+    height: 41px;
+  }
+
+  .sit img {
+    margin-top: 15px !important;
+    margin: 5px;
+  }
+
+  .fast {
+    display: none;
+  }
+
+  .addr {
+    display: none;
+  }
+
+  .contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    margin: 5px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sub {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 480px) {
